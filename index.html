@@ -1,0 +1,165 @@
+
+make me a website called the bowling 3d print project and make it only html and you can click a button called view files and then if you click it you go to https://drive.google.com/drive/folders/1xyk8X-8kdE90WcD7iA1g0Im2Iubz18rY  and if you click on a button that says go to discord you will go to https://discord.com/channels/1457076903604125828/1457077048169336903
+
+10:24 AM
+
+Architected single-page HTML site with dual navigation buttons.
+1m, 8s
+
+
+
+
+
+I'll create a website for your Bowling 3D Print Project with those two buttons.
+
+
+2 steps
+
+Presented file
+
+Crafting a polished website with styled navigation buttons.
+
+I've created your Bowling 3D Print Project website! It features a clean, modern design with two buttons that link to your Google Drive folder and Discord channel. The buttons will open the links in new tabs when clicked.
+
+Bowling 3d print project
+Code · HTML 
+
+
+Want to be notified when Claude responds?
+
+
+
+Claude is AI and can make mistakes. Please double-check responses.
+
+
+Bowling 3d print project · HTML
+Copy
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bowling 3D Print Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .btn {
+            padding: 18px 40px;
+            font-size: 1.2em;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            display: inline-block;
+        }
+
+        .btn-files {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-files:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-discord {
+            background: linear-gradient(135deg, #5865F2 0%, #404EED 100%);
+            color: white;
+        }
+
+        .btn-discord:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(88, 101, 242, 0.4);
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.3em;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .container {
+                padding: 40px 30px;
+            }
+            
+            .btn {
+                font-size: 1.1em;
+                padding: 16px 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎳 The Bowling 3D Print Project</h1>
+        <p class="subtitle">Access project files and join our community</p>
+        
+        <div class="button-container">
+            <a href="https://drive.google.com/drive/folders/1xyk8X-8kdE90WcD7iA1g0Im2Iubz18rY" 
+               class="btn btn-files" 
+               target="_blank">
+                <span class="icon">📁</span>View Files
+            </a>
+            
+            <a href="https://discord.com/channels/1457076903604125828/1457077048169336903" 
+               class="btn btn-discord" 
+               target="_blank">
+                <span class="icon">💬</span>Go to Discord
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+×
